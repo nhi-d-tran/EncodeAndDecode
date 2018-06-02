@@ -2,8 +2,11 @@
 
 ## ENCODING:
 Method 1) Encode without zero and no wrap-around.
+
 Method 2) Encode without zero and wrap-around.
-Method 3) Encode with zero and no wrap-around. //algorithm given below.
+
+Method 3) Encode with zero and no wrap-around. 
+
 Method 4) Encode with zero and wrap-around.
 
 **************************************
@@ -41,9 +44,13 @@ step 2: method <- get from the user from the console
             // if method is not within 1 – 4 exit with error message
             
 step 3: output method to outFile case of method
+
 1: call method1 (inFile) 
+
 2: call method2 (inFile)
+
 3: call method3 (inFile) 
+
 4: call method4 (inFile) 
 
 step 4: closed all files
